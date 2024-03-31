@@ -1,0 +1,56 @@
+/* ProductScreen.css */
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.btn-block{
+  font-weight: 600;
+  background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+}
+.prod-price strong{
+  font-weight: bold;
+  font-size: 1.0rem;
+  color: rgb(5, 135, 31);
+}
+.prod-desc{
+  text-align: justify;
+}
+.prod-desc strong{
+  color: #4421df;
+}
+.comment-form-container {
+  margin-top: 20px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form label {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  color: rgb(12, 10, 10);
+
+}
+
+.comment-form select,
+.comment-form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.comment-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100px;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}

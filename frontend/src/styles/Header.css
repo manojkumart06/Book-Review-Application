@@ -1,0 +1,30 @@
+.header {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(122, 45, 142) 0%, rgb(43, 6, 43) 90%);
+  margin-bottom: 5px;
+  height: auto; 
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-container img {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-brand {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: none;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+

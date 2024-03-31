@@ -1,0 +1,28 @@
+.product-card {
+    width: 260px; 
+    height: 500px; 
+    box-shadow: 0 0 5px rgba(233, 206, 206, 0.3); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+  }
+  
+  .product-name {
+    font-size: 1.0rem; 
+    font-weight: 350;
+    color: #0760bf; 
+  }
+  
+  .product-name:hover {
+    color: rgb(71, 147, 69);
+  }
+  
+  .product-image {
+    width: 100%; 
+    height: 260px; 
+    object-fit: cover;
+  }
+  
