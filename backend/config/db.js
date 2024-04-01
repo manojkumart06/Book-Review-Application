@@ -6,6 +6,7 @@ import mongoose from 'mongoose'
        useUnifiedTopology: true,
        useNewUrlParser: true,
        useCreateIndex: true,
+       useFindAndModify:true,
      })
 
      console.log(`MongoDB Connected: ${conn.connection.host}`)
