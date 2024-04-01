@@ -1,0 +1,40 @@
+{
+  "name": "book-reviwer-app",
+  "version": "1.0.0",
+  "description": "A web application that allows users to browse, search, and review books. The application should have a user-friendly interface and a backend API to handle data storage and retrieval",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "postinstall": "npm run data:import"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojkumart06/Book-Review-Application"
+  },
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manojkumart06/Book-Review-Application"
+  },
+  "homepage": ".",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
