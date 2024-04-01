@@ -2,6 +2,9 @@
 
 BookReviewer is a comprehensive web application designed for book enthusiasts to browse, search, and review their favorite books. It offers a user-friendly interface and utilizes a robust backend API for efficient data handling. This application is the go-to platform for sharing and discovering insightful book reviews.
 
+## Hosted Link:
+- [Click Here to see live](http://54.87.130.97:3000/) 
+
 ## Installation and Running the Application
 
 To get the BookReviewer application up and running on your local machine, follow these steps:
