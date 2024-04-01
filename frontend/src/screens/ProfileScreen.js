@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { getUserDetails, updateUserProfile } from '../actions/userActions'
+import '../styles/ProfileScreen.css'
 
 const ProfileScreen = ({ location, history }) => {
   const [name, setName] = useState('')
@@ -46,8 +47,9 @@ const ProfileScreen = ({ location, history }) => {
   }
 
   return (
-    <Row>
+    <Row className="profile-container">
       <Col md={3}>
+      <div className="profile-form">
         <h2>User Profile</h2>
         {message && <Message variant='danger'>{message}</Message>}
         {error && <Message variant='danger'>{error}</Message>}
@@ -98,9 +100,7 @@ const ProfileScreen = ({ location, history }) => {
             Update
           </Button>
         </Form>
-      </Col>
-      <Col md={9}>
-        <h2>My Orders</h2>
+        </div>
       </Col>
     </Row>
   )

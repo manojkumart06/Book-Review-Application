@@ -89,7 +89,7 @@ import { Link } from 'react-router-dom'
                 <ListGroup.Item>
                   <Row>
                     <Col>Price:</Col>
-                    <Col>
+                    <Col className='prod-price'>
                       <strong>&#8377;{product.price}</strong>
                     </Col>
                   </Row>

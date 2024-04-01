@@ -1,0 +1,36 @@
+/* ProfileScreen.css */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-container {
+    margin-top: 20px;
+  }
+  
+  .profile-form {
+    width : 300px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-form label {
+    font-weight: bold;
+  }
+  
+  .profile-form input[type='name'],
+  .profile-form input[type='text'],
+  .profile-form input[type='email'],
+  .profile-form input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-form button {
+    background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+    width: 100%;
+  }
+  

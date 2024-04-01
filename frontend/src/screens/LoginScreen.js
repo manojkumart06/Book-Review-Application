@@ -55,7 +55,7 @@ import React, { useState, useEffect } from 'react'
            ></Form.Control>
          </Form.Group>
 
-         <Button type='submit' variant='primary'>
+         <Button type='submit' style={{backgroundImage: "linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% )"}}>
            Sign In
          </Button>
        </Form>
