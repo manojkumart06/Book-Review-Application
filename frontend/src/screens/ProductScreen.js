@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom'
 
   const productDetails = useSelector((state) => state.productDetails)
   const { loading, error, product } = productDetails
-  console.log('productdetails are',product);
+  //console.log('productdetails are',product);
 
   const userLogin = useSelector((state) => state.userLogin)
   const { userInfo } = userLogin

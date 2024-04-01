@@ -13,19 +13,19 @@ const protect = asyncHandler(async (req, res, next) => {
     try {
       token = req.headers.authorization.split(' ')[1]
 
-      console.log("Received token:", token); // Log the received token
+      //console.log("Received token:", token); 
 
       const decoded = jwt.verify(token, process.env.JWT_SECRET)
 
-      console.log("Decoded token:", decoded); // Log the decoded token
+      //console.log("Decoded token:", decoded); 
 
       req.user = await User.findById(decoded.id).select('-password')
 
-      console.log("User attached to request:", req.user); // Log the user attached to the request
+      //console.log("User attached to request:", req.user); 
 
       next()
     } catch (error) {
-      console.error("Token verification error:", error); // Log the token verification error
+      console.error("Token verification error:", error); 
       res.status(401)
       throw new Error('Not authorized, token failed')
     }
