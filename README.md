@@ -51,6 +51,13 @@ To get the BookReviewer application up and running on your local machine, follow
 
 Contributions are welcome! If you're interested in improving the BookReviewer application, feel free to fork the repository and submit a pull request. Please ensure your code adheres to the project's coding standards and include unit tests where possible.
 
+## Issues and Troubleshooting:
+- For any issues or troubleshooting, please refer to the documentation or contact the developer.
+
+## Contact Information:
+- Developer: Manoj Kumar
+- Email: manojkumar06t@gmail.com
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
