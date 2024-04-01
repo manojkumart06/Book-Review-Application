@@ -24,9 +24,7 @@ import Product from '../models/productModel.js'
    }
  })
 
- // @desc    Create new review
-// @route   POST /api/products/:id/reviews
-// @access  Private
+
 const createProductReview = asyncHandler(async (req, res) => {
   const { rating, comment } = req.body
 

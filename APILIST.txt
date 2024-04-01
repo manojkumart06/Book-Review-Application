@@ -1,0 +1,11 @@
+-ProductController
+    -getProducts
+    -getProductById
+    -createProductReview
+    
+-UserController
+    -authUser
+    -registerUser
+    -getUserProfile
+    -updateUserProfile
+    -getUsers
