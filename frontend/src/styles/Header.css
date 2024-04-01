@@ -1,7 +1,20 @@
 .header {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(122, 45, 142) 0%, rgb(43, 6, 43) 90%);
+  background-image: radial-gradient( circle 602px at 2.1% 5.1%,  rgba(233,0,120,1) 0%, rgba(0,0,0,1) 90.1% );
   margin-bottom: 5px;
   height: auto; 
+  animation: headerAnimation 0.5s ease-in-out forwards;
+  box-shadow: 0px 4px 6px rgba(106, 2, 75, 0.855);
+}
+
+@keyframes headerAnimation {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .brand-container {
@@ -27,6 +40,3 @@
   margin-bottom: 10px;
   font-size: 1.3rem;
 }
-
-
-
