@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom'
  import Loader from '../components/Loader'
  import { listProductDetails, createProductReview } from '../actions/productActions'
  import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
- import {FaStar} from 'react-icons/fa'
  import '../styles/ProductScreen.css';
 
 
